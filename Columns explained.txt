@@ -1,0 +1,24 @@
+1.age= age
+2.gender= gender
+3.Purchase_Frequency= How frequently do you make purchases on Amazon? 5  catagories
+4.Purchase_Categories= What product categories do you typically purchase on Amazon? 
+5.personalized_recommendation_purchace = Have you ever made a purchase based on personalized product recommendations from Amazon? y n s
+6.Browsing_Frequency =How often do you browse Amazon's website or app? 4 catagories
+7.Product_Search_Method =How do you search for products on Amazon? 4 catagories
+8.Search_Result_Exploration =Do you tend to explore multiple pages of search results or focus on the first page? 2 catagories
+9.Customer_Reviews_Importance =How important are customer reviews in your decision-making process?  1-5
+10.Add_to_Cart_Browsing =Do you add products to your cart while browsing on Amazon? 3 catagores
+11.Cart_Completion_Frequency =How often do you complete the purchase after adding products to your cart? 5 cat
+12.Cart_Abandonment_Factors =What factors influence your decision to abandon a purchase in your cart? 3 cat
+13.Saveforlater_Frequency =Do you use Amazon's "Save for Later" feature, and if so, how often? 5 cat
+14.Review_Left =Have you ever left a product review on Amazon? true false
+15.Review_Reliability =How much do you rely on product reviews when making a purchase? 5 cat
+16.Review_Helpfulness =Do you find helpful information from other customers' reviews? 3 cat
+17.Personalized_Recommendation_Frequency =How often do you receive personalized product recommendations from Amazon? 1-5
+18.Recommendation_Helpfulness =Do you find the recommendations helpful? 3 cat
+19.Rating_Accuracy =How would you rate the relevance and accuracy of the recommendations you receive 1-5
+20.Shopping_Satisfaction =How satisfied are you with your overall shopping experience on Amazon? 1-5
+23.Service_Appreciation =What aspects of Amazon's services do you appreciate the most?
+24.Improvement_Areas =Are there any areas where you think Amazon can improve?
+full_date
+hour

@@ -45,12 +45,10 @@ bool_df = full_dropped[bool_columns].replace({'yes': True, 'no': False}).astype(
 
 full_bool = full_dropped.copy()
 
-"""
 # To check the replacement is done
 for col in bool_columns:
     full_bool[col] = bool_df[col]
-    print(full_bool[col])
-"""
+
 completed_df = full_bool.copy()
 
 # Parse the date-time string using dateutil.parser.parse()
@@ -69,7 +67,11 @@ completed_df['hour'] = completed_df['datetime'].dt.strftime('%H')
 
 completed_df = completed_df.drop(columns=['Timestamp', 'datetime'])
 
+# changed name way from another similar
+completed_df.rename({'Personalized_Recommendation_Frequency' : 'personalized_recommendation_purchace'}, inplace=True)
+
 print(completed_df.head())
+
 
 #export cleaned data
 completed_df.to_csv('cleaned_amazon.csv')
