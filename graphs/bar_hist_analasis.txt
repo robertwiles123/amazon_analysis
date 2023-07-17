@@ -1,0 +1,7 @@
+age_bar:
+    On first run there was a very low age, lower then 10, and maybe a few less then 18. Futher seaching on data_analysis.py show there are 13 data pionts less then 18. 1 is 3, which is assumed to be a typo and actually 30. The rest are manly 16+ with a few less then 15. To fix this the 3 will be changed to 30 ad anything less then 18 will be droped as unlikely to be early much of their own money so shouldn't have the amazon account.
+    After doing this the data does seem to have most the ages on the younger side, this is either due to a younger cohort using amazon. Or younger people have seen/ clicked the survey at a higher rate. Both options need to be explored.
+age_hist:
+    After looking at the distribution it is clear that the data has a right skew to it, this could be a product of the age of amazons userbase, and will be assumed until data confirms. If the userbase is more bell curve or even right skew undersampling or oversampling will be completed.
+
+
